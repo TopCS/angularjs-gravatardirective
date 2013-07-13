@@ -9,6 +9,4 @@ REM - Karma (npm install -g karma)
 
 set BASE_DIR=%~dp0
 
-set PHANTOMJS_BIN=C:\tools\phantomjs\phantomjs.exe
-
 karma start "%BASE_DIR%\..\config\testacular-unit.conf.js" %*
